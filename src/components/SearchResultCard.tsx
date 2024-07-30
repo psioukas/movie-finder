@@ -17,7 +17,7 @@ const SearchResultCard: FC<ArrayItem<SearchResult>> = ({
       cover={
         <img
           src={Poster}
-          alt={Title + " movie poster"}
+          alt={Title + " movie poster."}
           className={"h-56 w-full object-fill object-top"}
         />
       }
