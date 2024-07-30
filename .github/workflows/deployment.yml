@@ -47,7 +47,6 @@ jobs:
         run: npm run build
         env:
           VITE_OMDB_API_KEY: ${{ secrets.VITE_OMDB_API_KEY }}
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
