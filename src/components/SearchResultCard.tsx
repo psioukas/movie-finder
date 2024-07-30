@@ -1,6 +1,7 @@
-import { ArrayItem, constructImdbUrl, SearchResult } from "../utils/api.ts";
+import { constructImdbUrl } from "../utils/api.ts";
 import { FC } from "react";
 import { Card } from "antd";
+import { ArrayItem, SearchResult } from "../types.ts";
 
 const SearchResultCard: FC<ArrayItem<SearchResult>> = ({
   imdbID,
